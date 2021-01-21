@@ -5,7 +5,7 @@ Adaptive PSO FYP Common repository
 ## Modifying_Testing_Phase_1.ipynb          MOdified VSCCPSO 
 ## Existing_Comparison_Algorithms (1).ipynb Existing comaparison code
 
-gethugaja2000@gmail.com Colba contains this file as respectively given below:
+gethugaja2000@gmail.com Colab contains this file as respectively given below:
 Testing_Phase.ipynb
 Modifying_Testing_Phase_1.ipynb
 Existing_Comparison_Algorithms.ipynb
