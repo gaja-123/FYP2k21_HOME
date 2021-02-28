@@ -5,6 +5,7 @@ Adaptive PSO FYP Common repository
 ## Modifying_Testing_Phase_1.ipynb          MOdified VSCCPSO 
 ## Existing_Final.ipynb Existing comaparison code
 ## Result_Extractor_and_Classifiers_LOOCV.ipynb 
+## VLPSO_REDUCED_DATASET_EXTRACTOR.ipynb
 
 gethugaja2000@gmail.com Colab contains this file as respectively given below:
 Testing_Phase.ipynb
