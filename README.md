@@ -2,8 +2,13 @@
 
 The Jump Local Optima Particle Swarm Optimization I (JLOPSO I) is an advanced PSO-based algorithm designed for feature selection on high-dimensional data. It improves upon standard PSO by splitting the problem into manageable sub-problems, adaptively adjusting swarm sizes, and incorporating a local search protocol to escape local optima.
 
-For implementation details, refer to the source code (📘 [JLOPSO 1.ipynb](source%20code/JLOPSO%201.ipynb) – Core implementation notebook for Jump Local Optima Particle Swarm Optimization I (JLOPSO I), updated in 2021) in this repository. This workflow enhances efficiency on high-dimensional datasets by promoting diversity and escaping local optima.
+For implementation details and supporting documentation, refer to the following resources in this repository:
 
+📘 [JLOPSO 1.ipynb](source%20code/JLOPSO%201.ipynb) – Core implementation notebook for Jump Local Optima Particle Swarm Optimization I (JLOPSO I), updated in 2021. This workflow enhances efficiency on high-dimensional datasets by promoting diversity and escaping local optima.
+
+📄 [Final Thesis-signed.pdf](docs/Final%20Thesis-signed.pdf) – Certified project report titled “Adaptive Particle Swarm Optimization for Feature Selection on High Dimensional Data”, developed by Gajarajan V Y under the guidance of G. Manikandan, in collaboration with Chelampalem Sampreeth and Rekkarekula Romeyo.
+
+📊 [JLOPSO I Workflow PDF](docs/workflow%20-%20Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I.pdf) – Visual summary of the JLOPSO I algorithm workflow, illustrating key steps from feature evaluation to adaptive optimization.
 
 ## Overall JLOPSO I Feature Selection Process
 
@@ -71,4 +76,9 @@ The algorithm iterates until a stopping criterion is met. In each iteration, the
 
 For implementation details, refer to the source code (📘 [JLOPSO 1.ipynb](source%20code/JLOPSO%201.ipynb) – Core implementation notebook for Jump Local Optima Particle Swarm Optimization I (JLOPSO I), updated in 2021) in this repository. This workflow enhances efficiency on high-dimensional datasets by promoting diversity and escaping local optima.
 
-🧑‍💻 Authorship & Collaboration This project, titled “Adaptive Particle Swarm Optimization for Feature Selection on High-Dimensional Data”, was carried out by Gajarajan V Y under the guidance of G. Manikandan. The work was completed in collaboration with Chelampalem Sampreeth and Rekkarekula Romeyo, whose contributions supported the development, experimentation, and validation of the proposed algorithm
+🧑‍💻 Authorship & Collaboration This project, titled “Adaptive Particle Swarm Optimization for Feature Selection on High-Dimensional Data”, was carried out by Gajarajan V Y under the guidance of G. Manikandan. The work was completed in collaboration with Chelampalem Sampreeth and Rekkarekula Romeyo, whose contributions supported the development, experimentation, and validation of the proposed algorithm.
+
+📄 [Final Thesis-signed.pdf](docs/Final%20Thesis-signed.pdf) – Certified project report titled *“Adaptive Particle Swarm Optimization for Feature Selection on High Dimensional Data”*, developed by Gajarajan V Y under the guidance of G. Manikandan, in collaboration with Chelampalem Sampreeth and Rekkarekula Romeyo.
+
+📊 [JLOPSO I Workflow PDF](docs/📊 [JLOPSO I Workflow PDF](docs/workflow%20-%20Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I.pdf) – Visual summary of the JLOPSO I algorithm workflow.
+
