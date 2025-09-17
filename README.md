@@ -14,8 +14,8 @@ For implementation details and supporting documentation, refer to the following 
 
 <table>
   <tr>
-    <td style="width:30%;"><img src="images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(5).png" alt="JLOPSO I Feature Selection Process 4" width="100%"/></td>
-    <td style="width:70%;"><img src="images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(4).png" alt="JLOPSO I Feature Selection Process 5" width="100%"/></td>
+    <td style="width:45%;"><img src="images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(5).png" alt="JLOPSO I Feature Selection Process 4" width="100%"/></td>
+    <td style="width:55%;"><img src="images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(4).png" alt="JLOPSO I Feature Selection Process 5" width="100%"/></td>
   </tr>
 </table>
  
