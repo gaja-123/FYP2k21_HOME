@@ -16,7 +16,7 @@ The complete step-by-step workflow is as follows:
 2. **Remove Irrelevant Features**: Features with an SU value below a certain threshold (e.g., SU > 0) are considered weak or irrelevant and are removed from the feature set.
 3. **Sort and Divide**: The remaining features are sorted in descending order based on their SU values. This sorted set is then uniformly divided into a predefined number of M non-overlapping feature subspaces. This "divide-and-conquer" strategy splits the high-dimensional problem into smaller, low-dimensional sub-problems.
 
-![Feature Space Division Process](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I.png)  
+![Feature Space Division Process](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection.png)  
 *(Diagram: A funnel-shaped flow from calculating SU, evaluating correlations, sorting features, removing irrelevant ones, and dividing into subspaces.)*
 
 ## Step 2: Sub-Swarm Initialization and Sizing
