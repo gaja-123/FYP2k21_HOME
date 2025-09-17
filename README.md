@@ -12,12 +12,16 @@ For implementation details and supporting documentation, refer to the following 
 
 ## Overall JLOPSO I Feature Selection Process
 
-<table>
-  <tr>
-    <td style="width:40%;"><img src="images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(5).png" alt="JLOPSO I Feature Selection Process 4" width="100%"/></td>
-    <td style="width:60%;"><img src="images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(4).png" alt="JLOPSO I Feature Selection Process 5" width="100%"/></td>
-  </tr>
-</table>
+### 🔹 JLOPSO I Feature Selection Process – Step 1
+
+![JLOPSO I Feature Selection Process ](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(5).png)
+
+---
+
+### 🔹 JLOPSO I Feature Selection Process – Step 2
+
+![JLOPSO I Feature Selection Process ](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(4).png)
+
  
 *(High-level diagram: Sequential steps from feature importance evaluation using SU, feature removal, subspace division, sub-swarm initialization, and iterative optimization with fitness evaluation and local search.)*
 
@@ -75,12 +79,15 @@ The algorithm iterates until a stopping criterion is met. In each iteration, the
 
 ## Overall JLOPSO I Feature Selection Process
 
-<table>
-  <tr>
-    <td style="width:30%;"><img src="images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(5).png" alt="JLOPSO I Feature Selection Process 4" width="100%"/></td>
-    <td style="width:70%;"><img src="images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(4).png" alt="JLOPSO I Feature Selection Process 5" width="100%"/></td>
-  </tr>
-</table>
+### 🔹 JLOPSO I Feature Selection Process – Step 1
+
+![JLOPSO I Feature Selection Process ](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(5).png)
+
+---
+
+### 🔹 JLOPSO I Feature Selection Process – Step 2
+
+![JLOPSO I Feature Selection Process ](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(4).png)
 
 *(High-level diagram: Sequential steps from feature importance evaluation using SU, feature removal, subspace division, sub-swarm initialization, and iterative optimization with fitness evaluation and local search.)*
 
