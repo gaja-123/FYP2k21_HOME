@@ -2,11 +2,10 @@
 
 The Jump Local Optima Particle Swarm Optimization I (JLOPSO I) is an advanced PSO-based algorithm designed for feature selection on high-dimensional data. It improves upon standard PSO by splitting the problem into manageable sub-problems, adaptively adjusting swarm sizes, and incorporating a local search protocol to escape local optima.
 
-
 ## Overall JLOPSO I Feature Selection Process
 
-![JLOPSO I Feature Selection Process](images/Adaptive Particle swarm optimization for Feature Selection on High Dimensional Data , a.k.a Jump Local Optima Particle Swarm Optimization I - visual selection (4).png)  
-![JLOPSO I Feature Selection Process](images/Adaptive Particle swarm optimization for Feature Selection on High Dimensional Data , a.k.a Jump Local Optima Particle Swarm Optimization I - visual selection (5).png)
+![JLOPSO I Feature Selection Process](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(4).png)  
+![JLOPSO I Feature Selection Process](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(5).png)  
 *(High-level diagram: Sequential steps from feature importance evaluation using SU, feature removal, subspace division, sub-swarm initialization, and iterative optimization with fitness evaluation and local search.)*
 
 The complete step-by-step workflow is as follows:
@@ -17,7 +16,7 @@ The complete step-by-step workflow is as follows:
 2. **Remove Irrelevant Features**: Features with an SU value below a certain threshold (e.g., SU > 0) are considered weak or irrelevant and are removed from the feature set.
 3. **Sort and Divide**: The remaining features are sorted in descending order based on their SU values. This sorted set is then uniformly divided into a predefined number of M non-overlapping feature subspaces. This "divide-and-conquer" strategy splits the high-dimensional problem into smaller, low-dimensional sub-problems.
 
-![Feature Space Division Process](images/Adaptive Particle swarm optimization for Feature Selection on High Dimensional Data , a.k.a Jump Local Optima Particle Swarm Optimization I.png)  
+![Feature Space Division Process](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I.png)  
 *(Diagram: A funnel-shaped flow from calculating SU, evaluating correlations, sorting features, removing irrelevant ones, and dividing into subspaces.)*
 
 ## Step 2: Sub-Swarm Initialization and Sizing
@@ -27,7 +26,7 @@ The complete step-by-step workflow is as follows:
 3. **Bound Sub-Swarm Sizes**: To manage computational resources, the size of each sub-swarm is constrained within a predefined upper and lower bound.
 4. **Initialize Particles**: For each sub-swarm, particles are initialized with random positions. Each particle's best-known position (pbest) is set to its initial position, and the swarm's global best (gbest) is determined.
 
-![Sub-Swarm Initialization Process](images/Adaptive Particle swarm optimization for Feature Selection on High Dimensional Data , a.k.a Jump Local Optima Particle Swarm Optimization I - visual selection (1).png)  
+![Sub-Swarm Initialization Process](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(1).png)  
 *(Diagram: Stacked blocks showing determination of subspace significance, allocation of particles based on importance, constraining sizes, and positioning particles randomly with initial best positions.)*
 
 ## Step 3: Iterative Optimization
@@ -50,7 +49,7 @@ The algorithm iterates until a stopping criterion is met. In each iteration, the
    - Based on these metrics, particles may be automatically removed from a converging (less diverse) sub-swarm or new particles added to a diverging (more diverse) sub-swarm.
    - This dynamic adjustment maintains diversity and reduces unnecessary computation.
 
-![Iterative Optimization Cycle](images/Adaptive Particle swarm optimization for Feature Selection on High Dimensional Data , a.k.a Jump Local Optima Particle Swarm Optimization I - visual selection (2).png)  
+![Iterative Optimization Cycle](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(2).png)  
 *(Diagram: A circular flow with nodes for constructing/evaluating solutions, updating best positions, local search, and adjusting sub-swarm size to maintain diversity and efficiency.)*
 
 ## Step 4: Final Output and Evaluation
@@ -58,13 +57,13 @@ The algorithm iterates until a stopping criterion is met. In each iteration, the
 1. **Return Feature Set**: Once the stopping criterion is met, the final gbest from the optimization process represents the selected optimal feature subset.
 2. **Validate Performance**: The effectiveness of the selected feature subset is validated using key metrics: number of selected features and classification accuracy. The performance is typically compared against other algorithms like standard PSO, GA, and HHO on multiple classifiers (e.g., KNN and SVM) to ensure robustness.
 
-![Feature Selection and Validation Process](images/Adaptive Particle swarm optimization for Feature Selection on High Dimensional Data , a.k.a Jump Local Optima Particle Swarm Optimization I - visual selection (3).png)  
+![Feature Selection and Validation Process](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(3).png)  
 *(Diagram: A pyramid flow from returning the optimal feature set, validating performance, comparing algorithms, and ensuring robustness across classifiers.)*
 
 ## Overall JLOPSO I Feature Selection Process
 
-![JLOPSO I Feature Selection Process](images/Adaptive Particle swarm optimization for Feature Selection on High Dimensional Data , a.k.a Jump Local Optima Particle Swarm Optimization I - visual selection (4).png)  
-![JLOPSO I Feature Selection Process](images/Adaptive Particle swarm optimization for Feature Selection on High Dimensional Data , a.k.a Jump Local Optima Particle Swarm Optimization I - visual selection (5).png)
+![JLOPSO I Feature Selection Process](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(4).png)  
+![JLOPSO I Feature Selection Process](images/Adaptive%20Particle%20swarm%20optimization%20for%20Feature%20Selection%20on%20High%20Dimensional%20Data%20%2C%20a.k.a%20Jump%20Local%20Optima%20Particle%20Swarm%20Optimization%20I%20-%20visual%20selection%20(5).png)  
 *(High-level diagram: Sequential steps from feature importance evaluation using SU, feature removal, subspace division, sub-swarm initialization, and iterative optimization with fitness evaluation and local search.)*
 
 For implementation details, refer to the source code (/source code) in this repository. This workflow enhances efficiency on high-dimensional datasets by promoting diversity and escaping local optima.
